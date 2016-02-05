@@ -1,0 +1,23 @@
+{
+  "name": "udacity-p01",
+  "version": "0.0.1",
+  "description": "P1: Build a Portfolio Site",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazurdv/udacity-p01.git"
+  },
+  "author": "Dmitry Mazur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazurdv/udacity-p01/issues"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "html5shiv": "^3.7.3",
+    "respond.js": "^1.4.2",
+    "jquery": "1.11.3"
+  }
+}
