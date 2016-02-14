@@ -1,4 +1,4 @@
-.container {
+.width-1024 {
     max-width: 1024px;
 }
 
@@ -10,11 +10,11 @@
     color: #747704;
 }
 
-img {
+.full-width {
     width: 100%;
 }
 
-hr {
+.hr-customized {
     border-bottom: 2px solid #bcbbbb;
     margin-bottom: 34px;
 }
