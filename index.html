@@ -7,11 +7,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Dmitry Mazur - Portfolio Site</title>
+        <title>
+            Dmitry Mazur - Portfolio Site
+        </title>
 
-        <!-- Bootstrap -->
-        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link  rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+        <!-- Main CSS -->
         <link rel="stylesheet" href="css/main.css">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,81 +29,109 @@
 
     <div class="container">
 
+        <!--header with logo and name-->
         <header class="row">
 
-
-            <figure class="col-md-6">
-                <img src="img/udacity_logo.png" class="img-responsive" alt="">
-
+            <!--logo-->
+            <figure class="col-md-2 title-logo text-center">
+                <img class="title-logo-img" src="img/udacity_logo.png" alt="Udacity Logo">
             </figure>
 
-            <div class="col-md-6">
-                <h1 class="text-uppercase text-right">Dmitry Mazur</h1>
-                <h2 class="text-right page-header"><small>FRONT-END NINJA</small></h2>
+            <!-- name-->
+            <div class="col-md-10">
+                <h1 class="text-uppercase text-right name">
+                    Dmitry Mazur
+                </h1>
+                <h2 class="text-right">
+                    <small>
+                        FRONT-END NINJA
+                    </small>
+                </h2>
             </div>
 
         </header>
 
+        <!--horizontal divider-->
+        <div class="row">
+
+            <div class="col-md-12">
+                <hr>
+            </div>
+
+        </div>
+
+        <!--main image-->
         <figure class="row">
 
-            <img src="img/950x400.png" class="main-picture col-md-12 img-responsive" alt="Portfolio Main Picture">
+            <img src="img/950x400.png" class="col-md-12 img-responsive" alt="Portfolio Main Picture">
 
         </figure>
 
+        <!--featured work section-->
         <section class="row">
 
-            <h3 class="text-left grey-1 col-md-12 ">Featured Work</h3>
+            <h3 class="col-md-12 text-left grey-1 featured-work">Featured Work</h3>
 
+            <!--first project-->
             <article class="col-md-4">
+
                 <figure>
 
-                    <img src="img/appify.png" class="img-responsive" alt="">
+                    <img src="img/appify.png" class="img-responsive" alt="APPIFY Image">
 
                     <figcaption class="text-center">
                         <h2 class="grey-2">
                             APPIFY
                         </h2>
-                        <a href="https://github.com/udacity/Appify/" class="grey-1">
-                            https://github.com/udacity/Appify/
-                        </a>
+                        <p>
+                            <a href="https://github.com/udacity/Appify/" class="grey-1">
+                                https://github.com/udacity/Appify/
+                            </a>
+                        </p>
                     </figcaption>
 
                 </figure>
 
             </article>
 
+            <!--second project-->
             <article class="col-md-4">
 
                 <figure>
 
-                    <img src="img/sunflower.png" class="img-responsive" alt="">
+                    <img src="img/sunflower.png" class="img-responsive" alt="SUNFLOWER Image">
 
                     <figcaption class="text-center">
                         <h2 class="grey-2">
                             SUNFLOWER
                         </h2>
-                        <a href="https://github.com/udacity/Sunflower/" class="grey-1">
-                            https://github.com/udacity/Sunflower/
-                        </a>
+                        <p>
+                            <a href="https://github.com/udacity/Sunflower/" class="grey-1">
+                                https://github.com/udacity/Sunflower/
+                            </a>
+                        </p>
                     </figcaption>
 
                 </figure>
 
             </article>
 
+            <!--third project-->
             <article class="col-md-4">
 
                 <figure>
 
-                    <img src="img/bokeh.png" class="img-responsive" alt="">
+                    <img src="img/bokeh.png" class="img-responsive" alt="BOKEH Image">
 
                     <figcaption class="text-center">
                         <h2 class="grey-2">
                             BOKEH
                         </h2>
-                        <a href="https://github.com/udacity/Bokeh/" class="grey-1">
-                            https://github.com/udacity/Bokeh/
-                        </a>
+                        <p>
+                            <a href="https://github.com/udacity/Bokeh/" class="grey-1">
+                                https://github.com/udacity/Bokeh/
+                            </a>
+                        </p>
                     </figcaption>
 
                 </figure>

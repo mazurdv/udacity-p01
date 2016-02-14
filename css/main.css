@@ -1,16 +1,39 @@
-.main-picture{
-    /*width: 100%;*/
+.container {
+    max-width: 1024px;
 }
 
-.grey-1{
-    color: #BCBBBB;
+.grey-1 {
+    color: #bcbbbb;
 }
 
-.grey-2{
+.grey-2 {
     color: #747704;
 }
 
-.container{
-    max-width: 1024px;
+img {
+    width: 100%;
+}
+
+hr {
+    border-bottom: 2px solid #bcbbbb;
+    margin-bottom: 34px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.title-logo-img {
+    max-width: 120px;
+}
+
+.name {
+    padding-top: 22px;
+}
+
+.featured-work {
+    margin-top: 42px;
+    margin-bottom: 15px;
+    padding-left: 28px;
 }
 
